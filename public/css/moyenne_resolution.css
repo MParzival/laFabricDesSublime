@@ -1,6 +1,9 @@
 /*****************/
 /*    General    */
 /*****************/
+.text{
+    font-size: 12px;
+}
 /* Police */
 @font-face {
     font-family: "segeo";

@@ -165,7 +165,7 @@ footer{
     height: 166px;
 }
 /* Page Creation */
-img{
+a img{
     width: 250px;
     height: 250px;
 }
@@ -231,7 +231,7 @@ img{
     z-index: 1;
 }
 .imgMainMotifGauche{
-    left: 270px;
+    left: 240px;
 }
 .imgEtoileDroite{
     width: 137px;

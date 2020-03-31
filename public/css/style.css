@@ -8,6 +8,32 @@ section{
 #navigation{
     display: none;
 }
+
+/* Image */
+a{
+    position: relative;
+}
+a>img{
+    transition: .5s ease;
+}
+.overlay{
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text{
+    color: black;
+    opacity: 0;
+}
+a:hover img{
+    opacity: 0.3;
+}
+a:hover .text{
+    opacity: 1;
+}
 /* Police */
 @font-face {
     font-family: "segeo";
