@@ -628,7 +628,7 @@
 {% block javascripts %}
 <script>
     $(function () {
-        $('.petite').click(function () {
+        $(".petite").click(function () {
             var SourcePetiteImage = $(this).attr('src');
             var SourceGrandeImage = SourcePetiteImage.replace("petites", "grandes");
             $(".grande").html("<img src='" + SourceGrandeImage + "'>");
@@ -636,7 +636,7 @@
         });
 
         $(".grande").click(function () {
-            $(".grande").fadeOut("fast");
+            $(".grande").fadeOut("slow");
         });
     });
 </script>
