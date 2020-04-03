@@ -13,7 +13,7 @@
 
 /* Nav Creation */
 #navigation{
-    display: flex;
+    display: none;
 }
 #peintureAcrylique{
     margin-top: -100px;

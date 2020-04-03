@@ -5,10 +5,9 @@ section{
 .titre-center{
     text-align: center;
 }
-#navigation{
-    display: none;
+.fixed-top{
+    z-index: -12;
 }
-
 /* Image */
 a{
     position: relative;
