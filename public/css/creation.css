@@ -1,3 +1,10 @@
+#navigation{
+    display: none;
+}
+.nav{
+    flex-direction: column;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
