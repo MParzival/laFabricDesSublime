@@ -24,6 +24,11 @@
         </div>
         <div class="row mt-5">
             <div class="col-md-12">
+                {% for message in app.flashes('message')  %}
+                    <div class="alert alert-success" role="alert">
+                        {{ message }}
+                    </div>
+                {% endfor %}
                 {{ form_start(contactForm) }}
                 <div class="form-group">
                     {{ form_widget(contactForm.email, {'attr': {'class':'formEmailNomPrenom'}}) }}
@@ -48,11 +53,7 @@
 
                 {{ form_end(contactForm) }}
             </div>
-            {% for message in app.flashes('message')  %}
-                <div class="alert alert-success" role="alert">
-                    {{ message }}
-                </div>
-            {% endfor %}
+
         </div>
     </div>
 {% endblock %}

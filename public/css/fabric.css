@@ -24,6 +24,10 @@
 .alignRight{
     float: right;
 }
+.moiEnfant{
+    width: 366px;
+    height: 365px;
+}
 .titreParcour{
     position: absolute;
     display: inline;
@@ -101,10 +105,14 @@
         margin-top: 70px;
     }
     .titreParcour{
-        left: 200px;
+        left: 70px;
+    }
+    .moiEnfant{
+        height: 300px;
+        width: 300px;
     }
     .imageHirondelle{
-        left: 150px;
+        left: 30px;
     }
     .titreLogo{
        font-size: 23px;
@@ -200,6 +208,10 @@
     .imageMainTitre{
        display: none;
     }
+    .image1{
+        width: 300px;
+        height: 300px;
+    }
     .titreSublimer{
         margin-bottom: 120px;
     }
@@ -210,7 +222,9 @@
     }
     .moiEnfant{
         position: absolute;
-        top: 1200px;
+        top: 1350px;
+        width: 300px;
+        height: 300px;
     }
     .titreParcour{
         top: -100px;
@@ -222,6 +236,10 @@
     }
     .imageHirondelle{
        display: none;
+    }
+    .imgLogo{
+        width: 300px;
+        height: 300px;
     }
 
     .img3Stars{
@@ -247,7 +265,7 @@
         z-index: 1;
     }
     .imgLogoSignification{
-        width: 350px; height: 300px
+        width: 325px; height: 300px
     }
     .imgFleur{
       display: none;
