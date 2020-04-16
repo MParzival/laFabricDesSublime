@@ -1,4 +1,7 @@
 /* Général */
+body{
+    background-color: #fdfdfd;
+}
 section{
  padding: 5px;
 }
